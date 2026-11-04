@@ -1,3 +1,5 @@
+/* O reset fica na camada base para não sobrescrever os utilitários Tailwind. */
+@layer base {
 /* ==========================================================================
    Reset e bases
    ========================================================================== */
@@ -116,4 +118,6 @@ button, input, textarea{
     .so-desktop{
         display: none;
     }
+}
+
 }
