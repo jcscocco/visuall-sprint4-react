@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titulo": "Olá",
+    "descricao": "Saudação para iniciar uma conversa."
+  },
+  {
+    "id": 2,
+    "titulo": "Obrigado",
+    "descricao": "Expressão de agradecimento."
+  },
+  {
+    "id": 3,
+    "titulo": "Bom dia",
+    "descricao": "Saudação usada no período da manhã."
+  },
+  {
+    "id": 4,
+    "titulo": "Ajuda",
+    "descricao": "Palavra útil para solicitar apoio."
+  }
+]

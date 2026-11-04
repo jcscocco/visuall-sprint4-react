@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Reaproveitamos a identidade da Sprint 3; as novas telas usam Tailwind. */
+.revela { opacity: 1 !important; transform: none !important; }
+.grade-equipe { display: flex; overflow-x: auto; gap: 1.5rem; padding: 1rem; }
+.grade-equipe .integrante { position: relative; flex: 0 0 220px; transform: none; opacity: 1; }
+select option { background: #18181b; color: white; }
+button, a, input, select, textarea { touch-action: manipulation; }
