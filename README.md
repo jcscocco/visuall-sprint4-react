@@ -37,9 +37,9 @@ Entre em `/area`: sem login você deve ir para `/login`. Use **aluno@visuall.com
 O login é somente uma simulação acadêmica no front-end. Não utiliza dados reais nem oferece segurança de autenticação de produção. O simulador sorteia exemplos: o reconhecimento real de Libras pertence ao app Android original.
 
 ## Publicação obrigatória: GitHub e Vercel
-**PENDENTE: publicar esta versão no GitHub e na Vercel e preencher os links abaixo antes da entrega.** O repositório original não contém automaticamente esta versão React.
+Versão React publicada no repositório abaixo. A publicação na Vercel está aguardando verificação da conta.
 
-- Repositório da versão React: PREENCHER após o upload.
+- Repositório da versão React: https://github.com/jcscocco/visuall-sprint4-react
 - Deploy na Vercel: PREENCHER após publicar.
 - Referência original: https://visuall2k26.github.io/html/index.html
 
@@ -52,4 +52,4 @@ Os nomes e RMs fornecidos pela equipe estão em `INTEGRANTES.TXT`. A entrega ped
 Foi utilizado o Codex para auxiliar na leitura dos requisitos, migração do HTML original para componentes React, configuração do Vite e Tailwind, criação das rotas e hooks, implementação da API mockada e redação desta documentação. O conteúdo visual e a proposta VisuAll foram reaproveitados do projeto original da equipe. A equipe deve revisar e compreender o código antes de apresentar.
 
 ## Verificação realizada
-Build de produção executado com sucesso (`npm run build`). A interface não foi validada visualmente no navegador nesta entrega. GitHub e Vercel permanecem pendentes.
+Build de produção executado com sucesso (`npm run build`). A interface não foi validada visualmente no navegador nesta entrega. GitHub publicado; Vercel aguardando verificação da conta.
