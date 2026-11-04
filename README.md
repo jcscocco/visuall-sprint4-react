@@ -2,6 +2,13 @@
 
 Evolução da landing page VisuAll da Sprint 3 para React. Preserva o conteúdo, a identidade preta e dourada, a fonte Inter, as imagens da equipe e o vídeo do projeto original. Inclui demonstração interativa, avaliação local e área de favoritos.
 
+## Base e inspiração
+Utilizamos o site VisuAll original da equipe como base e inspiração visual para esta entrega, mantendo a mesma proposta da Challenge e evoluindo o trabalho da Sprint 3. A versão anterior foi construída com HTML, CSS e JavaScript; nesta versão, a interface foi migrada para React, com componentes JSX, rotas, props e hooks, além do uso de Tailwind CSS. CSS continua sendo utilizado na estilização e na preservação da identidade original.
+
+- GitHub do projeto usado como base: https://github.com/visuall2k26/visuall2k26.github.io
+- Site original: https://visuall2k26.github.io/html/index.html
+- Versão React desta entrega: https://github.com/jcscocco/visuall-sprint4-react
+
 ## Tecnologias
 React, JavaScript, Vite, React Router, Tailwind CSS 4 e CSS da landing page original. Projeto sem backend e sem banco de dados: a API mockada é um arquivo JSON servido via HTTP e os dados pessoais de teste são armazenados no localStorage.
 
@@ -52,4 +59,4 @@ Os nomes e RMs fornecidos pela equipe estão em `INTEGRANTES.TXT`. A entrega ped
 Foi utilizado o Codex para auxiliar na leitura dos requisitos, migração do HTML original para componentes React, configuração do Vite e Tailwind, criação das rotas e hooks, implementação da API mockada e redação desta documentação. O conteúdo visual e a proposta VisuAll foram reaproveitados do projeto original da equipe. A equipe deve revisar e compreender o código antes de apresentar.
 
 ## Verificação realizada
-Build de produção executado com sucesso (`npm run build`). A interface não foi validada visualmente no navegador nesta entrega. GitHub e Vercel publicados com sucesso.
+Build de produção executado com sucesso (`npm run build`). No site publicado, foram verificados o redirecionamento da rota privada sem login, o login demonstrativo, o carregamento da API mockada e a persistência do favorito após recarregar a página. A página inicial foi inspecionada visualmente em desktop. Os layouts possuem breakpoints responsivos; não foi feita uma inspeção visual completa de todas as telas em tablet e celular. GitHub e Vercel publicados com sucesso.
