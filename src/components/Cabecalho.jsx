@@ -1,16 +1,20 @@
-export default function Cabecalho(){return (<header className="cabecalho">
+import { useState } from 'react';
+
+export default function Cabecalho(){
+    const [aberto, setAberto] = useState(false);
+    return (<header className="cabecalho">
         <a className="marca" href="/#inicio" aria-label="VisuAll, início">
             <img src="/images/logo-marca.webp" alt="" className="marca-logo" width="840" height="500" />
             <span className="marca-nome">VisuAll</span>
         </a>
 
         
-        <input type="checkbox" id="abrir-menu" className="menu-check so-leitor" aria-label="Abrir e fechar o menu" />
+        <input type="checkbox" id="abrir-menu" className="menu-check so-leitor" aria-label="Abrir e fechar o menu" checked={aberto} onChange={e => setAberto(e.target.checked)} />
         <label htmlFor="abrir-menu" className="menu-botao" aria-hidden="true">
             <span></span>
         </label>
 
-        <nav className="navegacao" aria-label="Menu principal">
+        <nav className="navegacao" aria-label="Menu principal" onClick={e => { if (e.target.closest('a')) setAberto(false); }}>
             <ul>
                 <li><a href="/area">Minha área</a></li><li><a href="/#explorar">O app</a></li>
                 <li><a href="/#solucao">Solução</a></li>

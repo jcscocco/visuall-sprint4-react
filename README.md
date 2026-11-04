@@ -59,4 +59,18 @@ Os nomes e RMs fornecidos pela equipe estão em `INTEGRANTES.TXT`. A entrega ped
 Foi utilizado o Codex para auxiliar na leitura dos requisitos, migração do HTML original para componentes React, configuração do Vite e Tailwind, criação das rotas e hooks, implementação da API mockada e redação desta documentação. O conteúdo visual e a proposta VisuAll foram reaproveitados do projeto original da equipe. A equipe deve revisar e compreender o código antes de apresentar.
 
 ## Verificação realizada
-Build de produção executado com sucesso (`npm run build`). No site publicado, foram verificados o redirecionamento da rota privada sem login, o login demonstrativo, o carregamento da API mockada e a persistência do favorito após recarregar a página. A página inicial foi inspecionada visualmente em desktop. Os layouts possuem breakpoints responsivos; não foi feita uma inspeção visual completa de todas as telas em tablet e celular. GitHub e Vercel publicados com sucesso.
+Revisão em 04/11/2026, após corrigir o conflito entre o reset CSS e o Tailwind, o fechamento do menu móvel, os ícones da miniatura e a sobreposição do cabeçalho.
+
+- Build de produção: `npm run build`, sem erros.
+- Inspeção visual e medidas em 320px, 390px, 768px e 1440px: área privada responsiva, com uma, duas e três colunas conforme a largura.
+- Login: senha incorreta exibe erro; credenciais de demonstração abrem a área privada; logout e tentativa sem sessão redirecionam para login.
+- API mockada: quatro itens carregados por HTTP; busca, estado vazio, filtro e favoritos testados. Favorito preservado após recarregar.
+- Simulador: sorteio de exemplo e reinício testados.
+- Avaliação: formulário preenchido e enviado; média local preservada após recarregar.
+- Menu móvel: abre, navega e fecha ao selecionar uma seção.
+- Links internos e ícones SVG: referências verificadas; imagens e fontes locais sem arquivos ausentes.
+- Links externos principais: vídeo, download do APK e repositório original responderam HTTP 200 na conferência. O APK não foi executado; a reprodução integral do vídeo e as redes sociais não fazem parte dos testes funcionais da aplicação React.
+- Rota inexistente: página de erro com retorno ao início.
+- Nenhum erro ou aviso de aplicação apareceu no console durante os fluxos de navegação testados.
+
+Os testes cobrem o funcionamento acadêmico demonstrativo. A tradução real de Libras pertence ao aplicativo Android; o login desta versão é uma simulação no front-end.

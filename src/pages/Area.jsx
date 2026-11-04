@@ -19,7 +19,7 @@ export default function Area({ usuario, aoSair }) {
     </div>
     <p className="text-zinc-400 mb-6">Glossário de palavras de exemplo do projeto. Os favoritos ficam salvos neste navegador.</p>
     <div className="flex flex-wrap gap-5 items-center mb-8">
-      <label className="flex-1">Buscar sinal<input className="campo-entrada" value={busca} onChange={e => setBusca(e.target.value)} placeholder="Ex.: Olá" /></label>
+      <label className="w-full sm:flex-1 min-w-0">Buscar sinal<input className="campo-entrada" value={busca} onChange={e => setBusca(e.target.value)} placeholder="Ex.: Olá" /></label>
       <label><input type="checkbox" checked={somenteFavoritos} onChange={e => setSomenteFavoritos(e.target.checked)} /> Somente favoritos</label>
     </div>
     {carregando && <p role="status">Carregando sinais...</p>}

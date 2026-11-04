@@ -210,7 +210,7 @@
    Versão móvel — a barra se abre em gaveta
    ========================================================================== */
 
-@media (max-width: 1160px){
+@media (max-width: 1560px){
     .cabecalho{
         grid-template-columns: 1fr auto;
         padding-inline: var(--margem-pagina);
@@ -279,7 +279,7 @@
 /* Navegadores sem suporte a transição de grid continuam funcionais:
    a gaveta simplesmente abre e fecha sem animação. */
 @supports not (grid-template-rows: 0fr){
-    @media (max-width: 1160px){
+    @media (max-width: 1560px){
         .navegacao{ display: none; }
         .menu-check:checked ~ .navegacao{ display: block; }
     }
