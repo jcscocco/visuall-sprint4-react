@@ -37,10 +37,10 @@ Entre em `/area`: sem login você deve ir para `/login`. Use **aluno@visuall.com
 O login é somente uma simulação acadêmica no front-end. Não utiliza dados reais nem oferece segurança de autenticação de produção. O simulador sorteia exemplos: o reconhecimento real de Libras pertence ao app Android original.
 
 ## Publicação obrigatória: GitHub e Vercel
-Versão React publicada no repositório abaixo. A publicação na Vercel está aguardando verificação da conta.
+Versão React publicada no repositório abaixo. Publicação na Vercel concluída.
 
 - Repositório da versão React: https://github.com/jcscocco/visuall-sprint4-react
-- Deploy na Vercel: PREENCHER após publicar.
+- Deploy na Vercel: https://visuall-sprint4-react.vercel.app/
 - Referência original: https://visuall2k26.github.io/html/index.html
 
 Passos rápidos: crie um repositório no GitHub, envie os arquivos desta pasta (sem `node_modules`), entre na Vercel e importe esse repositório. Selecione Vite, comando de build `npm run build` e diretório de saída `dist`. O arquivo `vercel.json` já configura o retorno ao React nas rotas do navegador. Copie o endereço gerado para este README. Alternativamente, com Vercel CLI instalada e sua conta autenticada: `npx vercel --prod`.
@@ -52,4 +52,4 @@ Os nomes e RMs fornecidos pela equipe estão em `INTEGRANTES.TXT`. A entrega ped
 Foi utilizado o Codex para auxiliar na leitura dos requisitos, migração do HTML original para componentes React, configuração do Vite e Tailwind, criação das rotas e hooks, implementação da API mockada e redação desta documentação. O conteúdo visual e a proposta VisuAll foram reaproveitados do projeto original da equipe. A equipe deve revisar e compreender o código antes de apresentar.
 
 ## Verificação realizada
-Build de produção executado com sucesso (`npm run build`). A interface não foi validada visualmente no navegador nesta entrega. GitHub publicado; Vercel aguardando verificação da conta.
+Build de produção executado com sucesso (`npm run build`). A interface não foi validada visualmente no navegador nesta entrega. GitHub e Vercel publicados com sucesso.
